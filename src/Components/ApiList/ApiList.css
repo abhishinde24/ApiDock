@@ -1,0 +1,7 @@
+.api-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    row-gap: 20px;
+}

@@ -1,0 +1,29 @@
+{
+    "apis": [
+        {
+            "id": "1b00e267-24b6-490a-925b-cefb5765eed6",
+            "name": "test_post",
+            "method": "POST"
+        },
+        {
+            "id": "1b00e267-24b6-490a-925b-cefb5765eed7",
+            "name": "bkyc",
+            "method": "POST"
+        },
+        {
+            "id": "1b00e267-24b6-490a-925b-cefb5765eed8",
+            "name": "ckyc",
+            "method": "GET"
+        },
+        {
+            "id": "1b00e267-24b6-490a-925b-cefb5765eed9",
+            "name": "dkyc",
+            "method": "POST"
+        },
+        {
+            "id": "1b00e267-24b6-490a-925b-cefb5765eee0",
+            "name": "kite nifty api",
+            "method": "GET"
+        }
+    ]
+}
