@@ -1,7 +1,7 @@
 export interface selectedAPIInterface {
+    id: string | null,
     name: string | null,
     method: string | null,
-    id: string | null,
     url: string | null,
     authenticationType: string | null,
     headers: [
@@ -38,3 +38,27 @@ export interface selectedAPIInterface {
     ] | null
 
 }
+
+
+export interface curlApiInterface {
+    name: string | null,
+    url: string | null,
+    method: string | null,
+    authenticationType: string | null,
+    header: [
+        { key: string, value: string, inputValue: any, }
+    ] | null,
+    query_parameters: [
+        { key: string, value: string, inputValue: any, }
+    ] | null,
+
+    request_body: [
+        {
+            name: string,
+            regex: string, //todo 
+            parameter_type: string,
+            required: boolean,
+            inputValue: any,
+        }
+    ] | null,
+} 

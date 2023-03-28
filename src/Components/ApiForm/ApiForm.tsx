@@ -12,9 +12,10 @@ export default function ApiForm() {
         <>
             {<div>
                 <Routes>
+                    <Route path="/" element={<ViewApiForm />} />
                     <Route path="/edit/:name" element={<EditApiForm />} />
                     <Route path="/view/:name" element={<ViewApiForm />} />
-                    <Route path="/add/:name" element={<AddApiForm />} />
+                    {/* <Route path="/add/:name" element={<AddApiForm />} /> */}
                 </Routes>
 
             </div>

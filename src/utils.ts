@@ -45,7 +45,30 @@ export async function getResponse(path: string) {
       return null;
     }
     return myData;
-  } catch (error){
+  } catch (error) {
+    return null;
+  }
+}
+
+export async function PostResponse(path: string, body: any) {
+  try {
+    const myData = (await axios.post(path, body)).data;
+    if (typeof myData === "string") {
+      return null;
+    }
+    return myData;
+  } catch (error) {
+    return null;
+  }
+}
+export async function DeleteRequest(path: string) {
+  try {
+    const myData = (await axios.delete(path)).data;
+    if (typeof myData === "string") {
+      return null;
+    }
+    return myData;
+  } catch (error) {
     return null;
   }
 }

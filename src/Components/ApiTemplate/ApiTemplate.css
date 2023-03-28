@@ -1,0 +1,10 @@
+.request-body-array,.query-params-array,.response-body-array,.headers-array{
+    box-shadow: rgb(0 0 0 / 26%) 1px 1px 2px 1px;
+     padding : 16px 
+}
+
+.request-body-element,.query-param-element,.response-body-element,.headers-element,.single-value-elements{
+    padding:8px
+}
+
+

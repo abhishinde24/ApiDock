@@ -2,6 +2,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: black;
     row-gap: 20px;
+}
+
+list-item-btn{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }

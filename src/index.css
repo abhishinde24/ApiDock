@@ -1,13 +1,19 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+
 .left-pane{
-    position: fixed;
+    position: fixed ;
     top: 0;
     left: 0;
     width: 20vw;
-    background-color: black;
+    background-color: #DCDCDC;			;
     min-height: 100vh;
+    box-shadow: rgb(0 0 0 / 26%) 0px 0px 1px 1px;
 }
 .right-pane{
-    width: 80vw;
+    max-width: 80vw;
+    overflow-x: hidden;
     margin-left: 20vw;
     min-height: 100vh;
 }
